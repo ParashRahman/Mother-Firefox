@@ -1,41 +1,10 @@
 {
-  "name": "my-addon",
-  "title": "my-addon",
+  "name": "mom",
+  "title": "Mom",
   "id": "jid1-ZW72bRrU5vKACg",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "a distraction preventer",
+  "author": "Parash Rahman",
   "license": "MPL 2.0",
   "version": "0.1",
-  "dependencies": ["menuitems", "addon-sdk"],
-
-  "preferences": [
-  {
-      "name": "timeInterval",
-      "title": "Time interval in minutes",
-      "type": "integer",
-      "value": 30
-  },
-  {
-      "name": "description1",
-      "title": "First description",
-      "type": "string",
-      "value": "What are you doing, honey?"
-   },
-   {
-      "name": "description2",
-      "title": "Second description",
-      "type": "string",
-      "value": "Focus."
-   },
-   {
-      "name": "thePicture",
-      "type": "file",
-      "title": "Picture shown"
-   },
-   {
-      "name": "bgColor",
-      "type": "color",
-      "value": "#ffffff",
-      "title": "Background color"
-   }]
+  "dependencies": ["menuitems", "addon-sdk"]
 }
